@@ -1,0 +1,24 @@
+Page 18 
+
+2.4.1 Avoiding Categorization
+
+Relationships among variables are seldom linear, except in special cases
+such as when one variable is compared with itself measured at a different
+time. It is a common belief among practitioners who do not study bias and
+efficiency in depth that the presence of non-linearity should be dealt with by
+chopping continuous variables into intervals. Nothing could be more disastrous.
+
+2.4.3 Splines for Estimating Shape of Regression Function and Determining Predictor Transformations
+
+Page 22
+
+2.4.5 Restricted Cubic Splines
+
+Stone and Koo595 have found that cubic spline functions do have a drawback
+in that they can be poorly behaved in the tails, that is before the first knot and
+after the last knot. They cite advantages of constraining the function to be
+linear in the tails. Their restricted cubic spline function (also called natural
+3 splines) has the additional advantage that only k − 1 parameters must be
+estimated (besides the intercept) as opposed to k + 3 parameters with the
+unrestricted cubic spline.
+
